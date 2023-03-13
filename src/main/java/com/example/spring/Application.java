@@ -1,5 +1,7 @@
 package com.example.spring;
 
+import com.example.spring.service.Alein;
+import org.apache.catalina.core.ApplicationContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
+     SpringApplication.run(Application.class, args);
 
+
+
+    }
 }
